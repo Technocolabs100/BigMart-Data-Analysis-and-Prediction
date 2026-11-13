@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bigmart"
+version = "1.0.0"
+description = "BigMart sales analysis and prediction: data cleaning, EDA, hypothesis testing and leakage-free regression pipelines that forecast product sales per store."
+readme = "README.md"
+license = { text = "GPL-3.0" }
+authors = [{ name = "Ismail Ben Alla" }]
+requires-python = ">=3.10"
+keywords = [
+  "data-science", "sales-prediction", "sales-forecasting", "retail", "regression", "eda",
+  "feature-engineering", "scikit-learn", "xgboost", "gradient-boosting", "bigmart",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "xgboost>=2.0",
+  "matplotlib>=3.7",
+  "seaborn>=0.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6"]
+
+[project.scripts]
+bigmart-train = "bigmart.cli:train"
+bigmart-predict = "bigmart.cli:predict"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bigmart"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

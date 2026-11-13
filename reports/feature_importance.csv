@@ -1,0 +1,12 @@
+feature,rmse_increase,std
+Item_MRP,708.28,19.73
+Outlet_Type,498.45,6.8
+Outlet_Establishment_Year,47.82,4.27
+Item_Identifier,4.52,1.54
+Item_Visibility,3.62,2.43
+Outlet_Identifier,1.37,0.83
+Outlet_Location_Type,0.28,0.11
+Item_Type,0.23,0.37
+Outlet_Size,-0.13,0.17
+Item_Fat_Content,-0.89,0.53
+Item_Weight,-1.07,1.74

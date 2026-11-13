@@ -1,0 +1,84 @@
+{
+  "cv_folds": 5,
+  "models": {
+    "store_price": {
+      "rmse": 1071.6177,
+      "rmse_std": 33.4149,
+      "mae": 750.2684,
+      "r2": 0.6051
+    },
+    "random_forest": {
+      "rmse": 1083.6659,
+      "rmse_std": 35.7202,
+      "mae": 757.1453,
+      "r2": 0.5962
+    },
+    "gradient_boosting": {
+      "rmse": 1084.9324,
+      "rmse_std": 33.504,
+      "mae": 758.7825,
+      "r2": 0.5952
+    },
+    "xgboost": {
+      "rmse": 1087.8036,
+      "rmse_std": 34.2319,
+      "mae": 760.6703,
+      "r2": 0.5931
+    },
+    "ridge": {
+      "rmse": 1131.7659,
+      "rmse_std": 37.6374,
+      "mae": 839.4556,
+      "r2": 0.5595
+    },
+    "linear_regression": {
+      "rmse": 1131.7981,
+      "rmse_std": 37.653,
+      "mae": 839.4752,
+      "r2": 0.5595
+    },
+    "mean_baseline": {
+      "rmse": 1706.7124,
+      "rmse_std": 32.2036,
+      "mae": 1346.9404,
+      "r2": -0.002
+    }
+  },
+  "best_model": "store_price",
+  "store_multipliers": {
+    "OUT010": 2.442,
+    "OUT013": 16.418,
+    "OUT017": 16.835,
+    "OUT018": 14.173,
+    "OUT019": 2.418,
+    "OUT027": 26.248,
+    "OUT035": 17.091,
+    "OUT045": 15.559,
+    "OUT046": 15.902,
+    "OUT049": 16.807
+  },
+  "units_near_integer_share": 0.337,
+  "units_near_integer_expected": 0.1,
+  "holdout": {
+    "mean_baseline": {
+      "rmse": 1664.9758,
+      "mae": 1326.121,
+      "r2": -0.0048
+    },
+    "linear_regression": {
+      "rmse": 1092.599,
+      "mae": 803.3088,
+      "r2": 0.5673
+    },
+    "gradient_boosting": {
+      "rmse": 1050.4052,
+      "mae": 732.7843,
+      "r2": 0.6001
+    },
+    "store_price": {
+      "rmse": 1037.5449,
+      "mae": 722.2494,
+      "r2": 0.6098
+    }
+  }
+}

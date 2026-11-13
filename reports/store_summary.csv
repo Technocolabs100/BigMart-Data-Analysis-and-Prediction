@@ -1,0 +1,11 @@
+Outlet_Identifier,type,size,tier,age,products,mean_sales,mean_units,revenue,revenue_share
+OUT027,Supermarket Type3,Medium,Tier 3,28,935,3694.039,26.609,3453926.051,0.186
+OUT035,Supermarket Type1,Small,Tier 2,9,930,2438.842,16.974,2268122.935,0.122
+OUT049,Supermarket Type1,Medium,Tier 1,14,930,2348.355,16.63,2183969.81,0.117
+OUT017,Supermarket Type1,Small,Tier 2,6,926,2340.675,16.66,2167465.294,0.117
+OUT013,Supermarket Type1,High,Tier 3,26,932,2298.995,16.001,2142663.578,0.115
+OUT046,Supermarket Type1,Small,Tier 1,16,930,2277.844,16.191,2118395.168,0.114
+OUT045,Supermarket Type1,Small,Tier 2,11,929,2192.385,15.582,2036725.477,0.11
+OUT018,Supermarket Type2,Medium,Tier 3,4,928,1995.499,13.852,1851822.83,0.1
+OUT019,Grocery Store,Small,Tier 1,28,528,340.33,2.445,179694.094,0.01
+OUT010,Grocery Store,Small,Tier 3,15,555,339.352,2.383,188340.172,0.01
